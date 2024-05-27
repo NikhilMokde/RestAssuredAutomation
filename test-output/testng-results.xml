@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="22" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-24T00:17:46 IST" name="Default suite" finished-at="2024-05-24T00:19:16 IST" duration-ms="89696">
+    <groups>
+    </groups>
+    <test started-at="2024-05-24T00:17:46 IST" name="Default test" finished-at="2024-05-24T00:19:16 IST" duration-ms="89696">
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingCSVFile">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingCSVFile@5a6d5a8f]" started-at="2024-05-24T00:17:46 IST" name="DataDrivenTesting" data-provider="CSVTestData" finished-at="2024-05-24T00:17:55 IST" duration-ms="9305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=api testing by, lastname=testers talk, totalprice=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingCSVFile@5a6d5a8f]" started-at="2024-05-24T00:17:55 IST" name="DataDrivenTesting" data-provider="CSVTestData" finished-at="2024-05-24T00:17:57 IST" duration-ms="1254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=rest assured by, lastname=testers talk, totalprice=2000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingCSVFile@5a6d5a8f]" started-at="2024-05-24T00:17:57 IST" name="DataDrivenTesting" data-provider="CSVTestData" finished-at="2024-05-24T00:17:58 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=postman by, lastname=testers talk, totalprice=3000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingCSVFile -->
+      <class name="com.testautomation.apitesting.tests.EndToEndAPITest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@3b0f7d9d]" started-at="2024-05-24T00:18:09 IST" name="beforeMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@3b0f7d9d]" started-at="2024-05-24T00:18:09 IST" name="e2eAPIRequest" finished-at="2024-05-24T00:18:16 IST" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@3b0f7d9d]" started-at="2024-05-24T00:18:17 IST" name="afterMethod" finished-at="2024-05-24T00:18:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest status=SUCCESS method=EndToEndAPITest.e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@3b0f7d9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.EndToEndAPITest -->
+      <class name="com.testautomation.apitesting.tests.TestRetry">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:17:58 IST" name="beforeMethod" finished-at="2024-05-24T00:17:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:17:58 IST" name="e2eAPIRequest" finished-at="2024-05-24T00:18:09 IST" duration-ms="11284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="afterMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest status=SUCCESS method=TestRetry.e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="beforeMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest2()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="e2eAPIRequest2" finished-at="2024-05-24T00:18:09 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="afterMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest2 status=SUCCESS method=TestRetry.e2eAPIRequest2()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="beforeMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest3()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="e2eAPIRequest3" finished-at="2024-05-24T00:18:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest3 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2]" started-at="2024-05-24T00:18:09 IST" name="afterMethod" finished-at="2024-05-24T00:18:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest3 status=SUCCESS method=TestRetry.e2eAPIRequest3()[pri:0, instance:com.testautomation.apitesting.tests.TestRetry@77e2a6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.TestRetry -->
+      <class name="com.testautomation.apitesting.tests.PostAPIRequestUsingFile">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingFile@236ab296]" started-at="2024-05-24T00:18:17 IST" name="beforeMethod" finished-at="2024-05-24T00:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingFile@236ab296]" started-at="2024-05-24T00:18:17 IST" name="postAPIRequest" finished-at="2024-05-24T00:18:19 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingFile@236ab296]" started-at="2024-05-24T00:18:19 IST" name="afterMethod" finished-at="2024-05-24T00:18:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postAPIRequest status=SUCCESS method=PostAPIRequestUsingFile.postAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingFile@236ab296] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.PostAPIRequestUsingFile -->
+      <class name="com.testautomation.apitesting.tests.StepRetry">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.StepRetry@55a8dc49]" started-at="2024-05-24T00:18:28 IST" name="beforeMethod" finished-at="2024-05-24T00:18:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.StepRetry@55a8dc49]" started-at="2024-05-24T00:18:28 IST" name="e2eAPIRequest" finished-at="2024-05-24T00:18:36 IST" duration-ms="7411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.StepRetry@55a8dc49]" started-at="2024-05-24T00:18:36 IST" name="afterMethod" finished-at="2024-05-24T00:18:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest status=SUCCESS method=StepRetry.e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.StepRetry@55a8dc49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.StepRetry -->
+      <class name="com.testautomation.apitesting.tests.Cookies">
+        <test-method signature="cookiesAPITest()[pri:0, instance:com.testautomation.apitesting.tests.Cookies@2a415aa9]" started-at="2024-05-24T00:18:36 IST" name="cookiesAPITest" finished-at="2024-05-24T00:18:36 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesAPITest -->
+      </class> <!-- com.testautomation.apitesting.tests.Cookies -->
+      <class name="com.testautomation.apitesting.tests.CreateAPIRequestDynamically">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.CreateAPIRequestDynamically@5c84624f]" started-at="2024-05-24T00:18:19 IST" name="beforeMethod" finished-at="2024-05-24T00:18:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.CreateAPIRequestDynamically@5c84624f]" started-at="2024-05-24T00:18:19 IST" name="e2eAPIRequest" finished-at="2024-05-24T00:18:28 IST" duration-ms="9140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.CreateAPIRequestDynamically@5c84624f]" started-at="2024-05-24T00:18:28 IST" name="afterMethod" finished-at="2024-05-24T00:18:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest status=SUCCESS method=CreateAPIRequestDynamically.e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.CreateAPIRequestDynamically@5c84624f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.CreateAPIRequestDynamically -->
+      <class name="com.testautomation.apitesting.tests.PutAPIRequest">
+        <test-method signature="putAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.PutAPIRequest@53cdecf6]" started-at="2024-05-24T00:18:36 IST" name="putAPIRequest" finished-at="2024-05-24T00:18:41 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putAPIRequest -->
+      </class> <!-- com.testautomation.apitesting.tests.PutAPIRequest -->
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingExcelFile">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingExcelFile@71ea1fda]" started-at="2024-05-24T00:18:42 IST" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2024-05-24T00:18:44 IST" duration-ms="1183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=api testing by, LastName=testers talk, Run=Yes, TotalPrice=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingExcelFile@71ea1fda]" started-at="2024-05-24T00:18:44 IST" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2024-05-24T00:18:45 IST" duration-ms="1194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=rest assured  by, LastName=testers talk, Run=Yes, TotalPrice=1001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingExcelFile -->
+      <class name="com.testautomation.apitesting.tests.BasicAuth">
+        <test-method signature="basicAuthAPITest()[pri:0, instance:com.testautomation.apitesting.tests.BasicAuth@62b3df3a]" started-at="2024-05-24T00:18:45 IST" name="basicAuthAPITest" finished-at="2024-05-24T00:18:46 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthAPITest -->
+      </class> <!-- com.testautomation.apitesting.tests.BasicAuth -->
+      <class name="com.testautomation.apitesting.tests.AllureReportGeneration">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:46 IST" name="beforeMethod" finished-at="2024-05-24T00:18:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:46 IST" name="e2eAPIRequest" description="end to end api testing" finished-at="2024-05-24T00:18:54 IST" duration-ms="8254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:54 IST" name="afterMethod" finished-at="2024-05-24T00:18:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPIRequest status=SUCCESS method=AllureReportGeneration.e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:54 IST" name="beforeMethod" finished-at="2024-05-24T00:18:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPITest2()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:54 IST" name="e2eAPITest2" description="e2eAPITest2" finished-at="2024-05-24T00:18:56 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPITest2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d]" started-at="2024-05-24T00:18:56 IST" name="afterMethod" finished-at="2024-05-24T00:18:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e2eAPITest2 status=SUCCESS method=AllureReportGeneration.e2eAPITest2()[pri:0, instance:com.testautomation.apitesting.tests.AllureReportGeneration@7e11ab3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.AllureReportGeneration -->
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile">
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@5fa47fea]" started-at="2024-05-24T00:18:56 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2024-05-24T00:18:58 IST" duration-ms="1992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=api testing by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@5fa47fea]" started-at="2024-05-24T00:18:58 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2024-05-24T00:19:00 IST" duration-ms="1241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=rest assured by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@5fa47fea]" started-at="2024-05-24T00:19:00 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2024-05-24T00:19:01 IST" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=postman by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile -->
+      <class name="com.testautomation.apitesting.tests.PostAPIRequestUsingPojos">
+        <test-method signature="postAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingPojos@2392212b]" started-at="2024-05-24T00:19:01 IST" name="postAPIRequest" finished-at="2024-05-24T00:19:04 IST" duration-ms="3105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/firstname"}
+    instance: {"pointer":"/firstname"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer"]
+
+  Actual: {"firstname":"api testing","lastname":"tutorial","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-03-25","checkout":"2023-03-30"},"additionalneeds":"breakfast"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/firstname"}
+    instance: {"pointer":"/firstname"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer"]
+
+  Actual: {"firstname":"api testing","lastname":"tutorial","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-03-25","checkout":"2023-03-30"},"additionalneeds":"breakfast"}
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at com.testautomation.apitesting.tests.PostAPIRequestUsingPojos.postAPIRequest(PostAPIRequestUsingPojos.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPIRequest -->
+      </class> <!-- com.testautomation.apitesting.tests.PostAPIRequestUsingPojos -->
+      <class name="com.testautomation.apitesting.tests.PostAPIRequest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequest@5b43e173]" started-at="2024-05-24T00:19:04 IST" name="beforeMethod" finished-at="2024-05-24T00:19:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createBooking()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequest@5b43e173]" started-at="2024-05-24T00:19:04 IST" name="createBooking" finished-at="2024-05-24T00:19:06 IST" duration-ms="2550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequest@5b43e173]" started-at="2024-05-24T00:19:06 IST" name="afterMethod" finished-at="2024-05-24T00:19:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBooking status=SUCCESS method=PostAPIRequest.createBooking()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequest@5b43e173] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testautomation.apitesting.tests.PostAPIRequest -->
+      <class name="com.testautomation.apitesting.tests.FileUpload">
+        <test-method signature="uploadFile()[pri:0, instance:com.testautomation.apitesting.tests.FileUpload@28f8e165]" started-at="2024-05-24T00:19:06 IST" name="uploadFile" finished-at="2024-05-24T00:19:07 IST" duration-ms="1033" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[E:\2023RestAssuredFullCourse\RestAssuredTutorials\RestAssuredAPITestingTutorial\src\test\resources\putapirequestbody.txt (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: E:\2023RestAssuredFullCourse\RestAssuredTutorials\RestAssuredAPITestingTutorial\src\test\resources\putapirequestbody.txt (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at org.apache.http.entity.mime.content.FileBody.writeTo(FileBody.java:116)
+at org.apache.http.entity.mime.AbstractMultipartForm.doWriteTo(AbstractMultipartForm.java:134)
+at org.apache.http.entity.mime.AbstractMultipartForm.writeTo(AbstractMultipartForm.java:157)
+at org.apache.http.entity.mime.MultipartFormEntity.writeTo(MultipartFormEntity.java:113)
+at org.apache.http.HttpEntity$writeTo$4.call(Unknown Source)
+at io.restassured.internal.multipart.RestAssuredMultiPartEntity.writeTo(RestAssuredMultiPartEntity.groovy:110)
+at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:96)
+at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:110)
+at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:118)
+at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:274)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.sendRequestEntity(ManagedClientConnectionImpl.java:214)
+at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:238)
+at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor148.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:260)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at com.testautomation.apitesting.tests.FileUpload.uploadFile(FileUpload.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+      </class> <!-- com.testautomation.apitesting.tests.FileUpload -->
+      <class name="com.testautomation.apitesting.tests.GetAPIRequest">
+        <test-method signature="getAllBookings()[pri:0, instance:com.testautomation.apitesting.tests.GetAPIRequest@545f80bf]" started-at="2024-05-24T00:19:08 IST" name="getAllBookings" finished-at="2024-05-24T00:19:09 IST" duration-ms="1502" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.testautomation.apitesting.tests.GetAPIRequest.getAllBookings(GetAPIRequest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookings -->
+      </class> <!-- com.testautomation.apitesting.tests.GetAPIRequest -->
+      <class name="com.testautomation.apitesting.tests.PatchAPIRequest">
+        <test-method signature="patchAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.PatchAPIRequest@66f66866]" started-at="2024-05-24T00:19:09 IST" name="patchAPIRequest" finished-at="2024-05-24T00:19:16 IST" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchAPIRequest -->
+      </class> <!-- com.testautomation.apitesting.tests.PatchAPIRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
